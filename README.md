@@ -1,6 +1,8 @@
 django-bootstrap3-datetimepicker
 ================================
 
+**This is a forked version of nkunihiko's datetimepicker with added support for Django 1.11
+
 This package uses Bootstrap v3 datetimepicker widget version 2 provided by the following project:
  https://github.com/Eonasdan/bootstrap-datetimepicker
 
