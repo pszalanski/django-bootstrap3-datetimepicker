@@ -151,7 +151,7 @@ class DateTimePicker(DateTimeInput):
             js = ''
         return mark_safe(force_text(html + js))
 
-        def build_attrs(self, base_attrs, extra_attrs=None, **kwargs):
+    def build_attrs(self, base_attrs, extra_attrs=None, **kwargs):
         attrs = dict(base_attrs, **kwargs)
         if extra_attrs:
             attrs.update(extra_attrs)
