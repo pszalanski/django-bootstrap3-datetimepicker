@@ -1,3 +1,10 @@
+About
+=====
+
+This a fork of https://github.com/nkunihiko/django-bootstrap3-datetimepicker
+The original repo is out of date and does not support django 1.11 so I forked and merged a pull request (#65)
+
+
 django-bootstrap3-datetimepicker
 ================================
 
@@ -14,7 +21,7 @@ visit https://github.com/zokis/django-bootstrap-datetimepicker
 Install
 -------------------------------
 
-* Run `pip install django-bootstrap3-datetimepicker`
+* Run `pip install git+https://github.com/numidux/django-bootstrap3-datetimepicker`
 * Add `'bootstrap3_datetime'` to your `INSTALLED_APPS`
 
 
@@ -85,26 +92,6 @@ because it will be set the current language of the thread automatically.
 	</html>
 
 Bootstrap3 and jQuery have to be included along with `{{ form.media }}`
-
-
-Release Notes
--------------------------------
-
-###### v2.3
-
-* Updated bootstrap-datetimepicker.js to version 3.0
-
-
-###### v2.2.3
-
-* Updated bootstrap-datetimepicker.js to version 2.1.30
-
-
-###### v2.0.0
-
-* Includes bootstrap-datetimepicker.js version 2.1.11 with moment.js
-* The format strings have changed due to using moment.js 
-
 
 Requirements
 -------------------------------
